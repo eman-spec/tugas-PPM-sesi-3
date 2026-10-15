@@ -80,9 +80,11 @@ class ThemeProvider extends ChangeNotifier {
 > 📹 **Demonstrasi Interaktif NusaBookstore:**  
 > Menampilkan implementasi State Management Provider (`CartProvider` & `ThemeProvider`), katalog buku, search & filter, penambahan item keranjang realtime, dan alur checkout.
 
-https://github.com/eman-spec/tugas-PPM-sesi-3/assets/demo.mp4
+<video src="https://github.com/eman-spec/tugas-PPM-sesi-3/raw/main/demo.mp4" controls width="100%" poster="https://raw.githubusercontent.com/eman-spec/tugas-PPM-sesi-3/main/web/icons/Icon-512.png">
+  Browser Anda tidak mendukung tag video. Silakan tonton melalui link di bawah.
+</video>
 
-*(File video demo lokal: [`demo.mp4`](./demo.mp4))*
+### 🎬 [▶️ Klik di sini untuk Memutar / Download Video Demo (`demo.mp4`)](https://github.com/eman-spec/tugas-PPM-sesi-3/raw/main/demo.mp4)
 
 ---
 
