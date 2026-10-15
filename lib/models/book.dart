@@ -19,7 +19,7 @@ class Book {
 }
 
 // Daftar buku statis untuk katalog
-final List<Book> sampleBooks = [
+const List<Book> sampleBooks = [
   Book(
     id: 'b001',
     title: 'Laskar Pelangi',

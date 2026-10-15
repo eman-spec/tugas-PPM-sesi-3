@@ -17,7 +17,7 @@ class CatalogScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Column(
+        title: const Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
@@ -44,7 +44,7 @@ class CatalogScreen extends StatelessWidget {
           Container(
             margin: const EdgeInsets.only(right: 4),
             decoration: BoxDecoration(
-              color: Colors.white.withOpacity(0.15),
+              color: Colors.white.withValues(alpha: 0.15),
               borderRadius: BorderRadius.circular(20),
             ),
             child: IconButton(
@@ -66,7 +66,7 @@ class CatalogScreen extends StatelessWidget {
               children: [
                 Container(
                   decoration: BoxDecoration(
-                    color: Colors.white.withOpacity(0.15),
+                    color: Colors.white.withValues(alpha: 0.15),
                     borderRadius: BorderRadius.circular(20),
                   ),
                   child: IconButton(
@@ -139,7 +139,7 @@ class CatalogScreen extends StatelessWidget {
                       Text(
                         '📚 Temukan Buku Terbaik',
                         style: TextStyle(
-                          color: Colors.white.withOpacity(0.9),
+                          color: Colors.white.withValues(alpha: 0.9),
                           fontSize: 13,
                           fontWeight: FontWeight.w500,
                         ),
@@ -160,7 +160,7 @@ class CatalogScreen extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.all(16),
                   decoration: BoxDecoration(
-                    color: Colors.white.withOpacity(0.15),
+                    color: Colors.white.withValues(alpha: 0.15),
                     borderRadius: BorderRadius.circular(16),
                   ),
                   child: const Icon(
@@ -299,14 +299,14 @@ class _BookCard extends StatelessWidget {
                       begin: Alignment.topLeft,
                       end: Alignment.bottomRight,
                       colors: [
-                        catColor.withOpacity(0.8),
+                        catColor.withValues(alpha: 0.8),
                         catColor,
                       ],
                     ),
                     borderRadius: BorderRadius.circular(10),
                     boxShadow: [
                       BoxShadow(
-                        color: catColor.withOpacity(0.3),
+                        color: catColor.withValues(alpha: 0.3),
                         blurRadius: 8,
                         offset: const Offset(0, 4),
                       ),
@@ -347,10 +347,10 @@ class _BookCard extends StatelessWidget {
                         padding: const EdgeInsets.symmetric(
                             horizontal: 8, vertical: 3),
                         decoration: BoxDecoration(
-                          color: catColor.withOpacity(0.1),
+                          color: catColor.withValues(alpha: 0.1),
                           borderRadius: BorderRadius.circular(6),
                           border: Border.all(
-                              color: catColor.withOpacity(0.3), width: 1),
+                              color: catColor.withValues(alpha: 0.3), width: 1),
                         ),
                         child: Text(
                           book.category,
@@ -375,7 +375,7 @@ class _BookCard extends StatelessWidget {
                       Text(
                         book.author,
                         style: theme.textTheme.bodySmall?.copyWith(
-                          color: theme.colorScheme.onSurface.withOpacity(0.6),
+                          color: theme.colorScheme.onSurface.withValues(alpha: 0.6),
                           fontStyle: FontStyle.italic,
                         ),
                       ),
@@ -383,7 +383,7 @@ class _BookCard extends StatelessWidget {
                       Text(
                         book.description,
                         style: theme.textTheme.bodySmall?.copyWith(
-                          color: theme.colorScheme.onSurface.withOpacity(0.7),
+                          color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
                           height: 1.4,
                         ),
                         maxLines: 2,
@@ -454,10 +454,10 @@ class _BookCard extends StatelessWidget {
                                   padding: const EdgeInsets.symmetric(
                                       horizontal: 12, vertical: 4),
                                   decoration: BoxDecoration(
-                                    color: catColor.withOpacity(0.1),
+                                    color: catColor.withValues(alpha: 0.1),
                                     borderRadius: BorderRadius.circular(8),
                                     border: Border.all(
-                                        color: catColor.withOpacity(0.3)),
+                                        color: catColor.withValues(alpha: 0.3)),
                                   ),
                                   child: Text(
                                     '$quantity',
@@ -511,9 +511,9 @@ class _QtyButton extends StatelessWidget {
       height: 30,
       margin: const EdgeInsets.symmetric(horizontal: 4),
       decoration: BoxDecoration(
-        color: color.withOpacity(0.1),
+        color: color.withValues(alpha: 0.1),
         shape: BoxShape.circle,
-        border: Border.all(color: color.withOpacity(0.3)),
+        border: Border.all(color: color.withValues(alpha: 0.3)),
       ),
       child: IconButton(
         padding: EdgeInsets.zero,
