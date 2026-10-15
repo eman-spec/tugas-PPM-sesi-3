@@ -75,22 +75,14 @@ class ThemeProvider extends ChangeNotifier {
 
 ---
 
-## 📱 Screenshot
+## 🎥 Video Demo Aplikasi
 
-### Halaman Katalog (Light Mode)
-![Katalog Light Mode](screenshots/catalog_light.png)
+> 📹 **Demonstrasi Interaktif NusaBookstore:**  
+> Menampilkan implementasi State Management Provider (`CartProvider` & `ThemeProvider`), katalog buku, search & filter, penambahan item keranjang realtime, dan alur checkout.
 
-### Halaman Katalog (Dark Mode)
-![Katalog Dark Mode](screenshots/catalog_dark.png)
+https://github.com/eman-spec/tugas-PPM-sesi-3/assets/demo.mp4
 
-### Badge Keranjang
-![Badge Keranjang](screenshots/cart_badge.png)
-
-### Halaman Keranjang
-![Halaman Keranjang](screenshots/cart_screen.png)
-
-### SnackBar Checkout
-![SnackBar Checkout](screenshots/checkout_snackbar.png)
+*(File video demo lokal: [`demo.mp4`](./demo.mp4))*
 
 ---
 
@@ -98,7 +90,7 @@ class ThemeProvider extends ChangeNotifier {
 
 1. **Clone repository:**
    ```bash
-   git clone <URL_REPOSITORY>
+   git clone https://github.com/eman-spec/tugas-PPM-sesi-3.git
    cd nusa_bookstore
    ```
 
